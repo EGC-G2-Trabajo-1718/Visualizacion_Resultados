@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Resultados de la votación</title>
+    <script src="../../Chart.bundle.js"></script>
+</head>
+
+<body>
+    <div id="canvas-holder" style="width:50% ">
+        <canvas id="chart-area" />
+    </div>
+
+    <script>
+  
+    var grafica = {
+        type: 'pie',
+        data: {
+            datasets: [{
+                data: [12, 7, 57,24],
+                backgroundColor: [
+                    '#008000', //Verde
+                    '#FF0000', //Rojo	
+                    '#FF7C00', //Naranja
+                    '#0000FF', //Azul	
+                   
+                ],
+                
+            }],
+            labels: [
+                "Opción A", //Verde	
+                "Opción B",	//Rojo
+                "Opción C",	//Naranja
+                "Opción D"	//Azul
+            ]
+        },
+        options: {
+            responsive: true,
+            legend: {
+                labels: {
+                
+                fontColor: 'black',
+				fontStyle: 'bold'	
+                
+				}, 
+                position: 'bottom',
+            },
+            title: {
+                display: true,
+                text: 'Resultados de la votación',
+            	fontColor: 'black',
+				fontSize: 25,
+				fontStyle: 'bold' 
+			},
+            animation: {
+                animateScale: true,
+                animateRotate: true
+            }
+        }
+    };
+
+    window.onload = function() {
+        var ctx = document.getElementById("chart-area").getContext("2d");
+        window.graficaResultados= new Chart(ctx, grafica);
+    };
+
+
+
+    </script>
+</body>
+
+</html>
