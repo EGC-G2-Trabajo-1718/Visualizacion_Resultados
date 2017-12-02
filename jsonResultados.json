@@ -1,0 +1,23 @@
+{
+  "data": [{
+    "opcion": "Opcion 1",
+    "numVotos": 18,
+    "porcentaje": 8.5
+  },
+    {
+      "opcion": "Opcion 2",
+      "numVotos": 28,
+      "porcentaje": 13.2
+    },
+    {
+      "opcion": "Opcion 3",
+      "numVotos": 103,
+      "porcentaje": 48.6
+    },
+    {
+      "opcion": "Opcion 4",
+      "numVotos": 63,
+      "porcentaje": 29.7
+    }
+  ]
+}
