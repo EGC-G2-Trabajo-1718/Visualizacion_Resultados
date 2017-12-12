@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "edad": 70,
+      "opcion": "Opcion B"
+    },
+    {
+      "edad": 40,
+      "opcion": "Opcion C"
+    },
+    {
+      "edad": 56,
+      "opcion": "Opcion A"
+    },
+    {
+      "edad": 46,
+      "opcion": "Opcion D"
+    },
+    {
+      "edad": 53,
+      "opcion": "Opcion A"
+    },
+    {
+      "edad": 65,
+      "opcion": "Opcion D"
+    },
+    {
+      "edad": 37,
+      "opcion": "Opcion D"
+    },
+    {
+      "edad": 67,
+      "opcion": "Opcion D"
+    },
+    {
+      "edad": 59,
+      "opcion": "Opcion B"
+    },
+    {
+      "edad": 49,
+      "opcion": "Opcion B"
+    },
+    {
+      "edad": 68,
+      "opcion": "Opcion B"
+    },
+    {
+      "edad": 52,
+      "opcion": "Opcion D"
+    },
+    {
+      "edad": 30,
+      "opcion": "Opcion A"
+    },
+    {
+      "edad": 69,
+      "opcion": "Opcion C"
+    },
+    {
+      "edad": 46,
+      "opcion": "Opcion D"
+    },
+    {
+      "edad": 35,
+      "opcion": "Opcion C"
+    }
+  ]
+}
